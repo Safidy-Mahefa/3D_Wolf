@@ -99,6 +99,8 @@ function animate(){
   if(head){
     head.lookAt(target.position);
     // Reinjecter l'orientation initiale
+    head.rotateX(-Math.PI / 2);
+    head.rotateZ(Math.PI)
   }
   renderer.render(scene,camera);
 
