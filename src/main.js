@@ -67,6 +67,7 @@ loader.load(
       //selectionner l'animation si il y en a
       const action = mixer.clipAction(animations[7]);
       //lancer l'anim
+      action.play()
     }
     console.log("Modele chargé")
   },
